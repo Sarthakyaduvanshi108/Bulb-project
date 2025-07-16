@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+}
+
+.container-flex {
+  background-color: #ffffff;
+  border: 3px solid rgb(29, 68, 141);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#bulbImage {
+  width: 150px;
+  height: 200px; 
+  object-fit: contain;
+  margin: 20px 0;
+  transition: 0.3s;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.on-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.on-btn:hover {
+  background-color: #0fe21a;
+}
+
+.off-btn {
+  background-color: #c43b31;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.off-btn:hover {
+  background-color: #eb0d0d;
+}
